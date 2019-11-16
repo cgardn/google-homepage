@@ -1,10 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 #content {
+    width: auto;
+    margin: auto;
     display: grid;
-    grid-template-rows: repeat(5, 100px);
-    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 #logo {
-    background-color: rgb(211, 0, 0);
     grid-area: 2 / 4 / span 1 / span 3;
+}
+
+.grid-item {
+    /*border: 2px solid black;*/
+}
+
+#footer-bg {
+    background-color: lightslategrey;
+    grid-area: 5/1/6/9;
+    z-index: 0;
+}
+
+.footer-link {
+    z-index: 1;
 }
