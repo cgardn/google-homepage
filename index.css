@@ -54,6 +54,11 @@ body {
     width: 525px;
 }
 
+#query:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
 .search-button {
     margin: 5px;
     font-family: arial, sans-serif;
