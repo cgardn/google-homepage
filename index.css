@@ -32,28 +32,32 @@ body {
 }
 
 #content {
-    width: auto;
-    margin-top: 150px;
+    min-width: 400px;
+    max-width: 1200;
+    margin-top: 126px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-}
-
-#main {
-    width: 400px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 #logo {
-    width: 300px;
+    width: 272px;
     margin: 30px;
 }
 
-form {
-    margin: 0 auto;
-}
-input {
+
+#query {
     margin: auto;
+    margin-bottom: 20px;
+    min-width: 400px;
+    width: 525px;
+}
+
+.search-button {
+    margin: 5px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
 
 #footer {
@@ -64,8 +68,6 @@ input {
     margin: auto;
     background-color: rgb(233, 233, 233);
 }
-
-
 
 .link {
     display: inline-block;
