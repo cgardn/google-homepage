@@ -107,6 +107,7 @@ p {
 .search-result-number p {
     color: lightslategrey;
     margin: 20px auto;
+    font-size: 0.9em
 }
 
 .search-result-group {
@@ -121,13 +122,21 @@ p {
 
 .search-result a {
     text-decoration: none;
-    font-size: 1.2em;
     font-family: arial, sans-serif;
     font-weight: 300;
 }
 
-.search-result p {
-    margin: 8px auto;
+.result-link {
+    color: #545454;
+    font-size: 0.95em;
+}
+
+.result-title {
+    font-size: 1.4em;
+}
+
+.result-summary-text {
+    margin: 4px auto 8px auto;
     font-weight: normal;
     font-size: 0.9em;
     color: #545454
