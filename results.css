@@ -2,6 +2,10 @@
     margin: 0; padding: 0; border: none;
 }
 
+p {
+    font-family: arial, sans-serif;
+}
+
 #header {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
@@ -9,7 +13,7 @@
     grid-template-areas:
         "logo query navright"
         ". toplinks .";
-    border-bottom: 1px solid lightslategrey;
+    border-bottom: 1px solid rgb(184, 184, 184);
     height: 135px;
     top: 0;
     right: 0;
@@ -112,8 +116,19 @@
 
 .search-result {
     margin-bottom: 25px;
+    line-height: 1.2em;
+}
+
+.search-result a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: arial, sans-serif;
+    font-weight: 300;
 }
 
 .search-result p {
     margin: 8px auto;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #545454
 }
