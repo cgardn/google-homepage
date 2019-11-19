@@ -113,6 +113,7 @@ p {
 .search-result-group {
     margin-left: 10%;
     margin-right: 50%;
+    margin-bottom: 100px;
 }
 
 .search-result {
@@ -140,6 +141,71 @@ p {
     font-weight: normal;
     font-size: 0.9em;
     color: #545454
+}
+/*
+.testspan {
+    background: url("https://www.google.com/images/nav_logo299.png") no-repeat;
+    display: inline-block;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+}*/
+
+#page-nav {
+    margin: 50px 40% 100px 10%;
+}
+
+#nav-table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 30px auto 30px
+}
+
+.nav-g {
+    background: url("nav_logo299.png") no-repeat;
+    background-position: -24px 0;
+    display: inline-block;
+    width: 28px;
+    height: 40px;
+}
+
+.nav-o-red {
+    background: url("nav_logo299.png") no-repeat;
+    background-position: -53px 0;
+    display: block;
+    width: 20px;
+    height: 30px;
+}
+
+.nav-o-yellow {
+    background: url("nav_logo299.png") no-repeat;
+    background-position: -74px 0;
+    display: block;
+    width: 20px;
+    height: 30px;
+}
+
+.nav-end-link {
+    background: url("nav_logo299.png") no-repeat;
+    background-position: -96px 0;
+    display: block;
+    width: 71px;
+    height: 30px;
+}
+
+.nav-end-text {
+    display: block;
+    margin-left: 53px;
+    z-index: 1;
+}
+
+td {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+td a {
+    text-decoration: none;
 }
 
 #footer {
