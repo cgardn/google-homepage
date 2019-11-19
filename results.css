@@ -104,7 +104,7 @@ p {
     width: 20px;
 }
 
-.search-result-number p {
+.search-result-number {
     color: lightslategrey;
     margin: 20px auto;
     font-size: 0.9em
@@ -140,4 +140,50 @@ p {
     font-weight: normal;
     font-size: 0.9em;
     color: #545454
+}
+
+#footer {
+    background-color: rgb(233, 233, 233);
+    border-top: 1px solid rgb(215, 215, 215);
+    display: grid;
+    grid-template-columns: 10% 50% 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". upper-links ."
+        ". lower-links .";
+}
+
+.bottom-links-upper {
+    grid-area: upper-links;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.bottom-links-lower {
+    grid-area: lower-links;
+    padding: 5px 0;
+}
+
+.bottom-link {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+    color: rgb(95, 99, 104);
+    padding: 0 3px 0 0; 
+}
+
+.lower-link {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+    color: rgb(95, 99, 104);
+    padding: 0 23px 0 0; 
+}
+
+#location-text {
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+    color: rgb(62, 63, 63);
+    font-weight: 500;
+    padding: 5px 3px 5px 0;
 }
