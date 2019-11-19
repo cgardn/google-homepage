@@ -46,12 +46,24 @@ body {
     margin: 30px;
 }
 
+#mag-icon {
+    width: 20px;
+    height: 20px;
+    fill: lightslategray;
+}
 
 #query {
     margin: auto;
     margin-bottom: 20px;
     min-width: 400px;
     width: 525px;
+    width: 575px;
+    height: 45px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0px 40px;
+    box-sizing: border-box;
 }
 
 #query:hover {
@@ -63,6 +75,9 @@ body {
     margin: 5px;
     font-family: arial, sans-serif;
     font-size: 13px;
+    text-decoration-color: lightslategrey;
+    border: none;
+    padding: 10px 20px;
 }
 
 #footer {
