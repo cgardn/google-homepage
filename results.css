@@ -142,17 +142,39 @@ p {
     font-size: 0.9em;
     color: #545454
 }
-/*
-.testspan {
-    background: url("https://www.google.com/images/nav_logo299.png") no-repeat;
-    display: inline-block;
-    background-position: -53px 0;
-    width: 20px;
-    height: 40px;
-}*/
+
+#more-results {
+    display: grid;
+    grid-template-columns: 200px 8% 8% 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". head head ."
+        ". l1 l2 ."
+        ". l3 l4 ."
+        ". l5 l6 ."
+        ". l7 l8 ."; 
+}
+
+#more-results a {
+    text-decoration: none;
+    padding: 3px;
+    font-family: arial, sans-serif;
+    font-size: 0.95em;
+}
+
+#more-header {
+    grid-area: head;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: rgb(34, 34, 34);
+}
+
+#l1 {grid-area: l1;} #l2 {grid-area: l2; justify-self: left;} #l3 {grid-area: l3;} #l4 {grid-area: l4;}
+#l5 {grid-area: l5;} #l6 {grid-area: l6;} #l7 {grid-area: l7;} #l8 {grid-area: l8;}
 
 #page-nav {
-    margin: 50px 40% 100px 10%;
+    margin: 50px 60% 100px 10%;
 }
 
 #nav-table {
